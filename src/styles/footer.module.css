@@ -1,0 +1,29 @@
+.footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    padding-top: 30px;
+    border-top: 2px solid rgb(93, 22, 93);
+    
+}
+
+.footerdata{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quicklinks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.linkdata{
+    text-decoration: none;
+    color: white;
+
+}

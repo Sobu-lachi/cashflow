@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(9, 7, 7);
+    color: white;
+    margin: 0;
+}
+
+.howitworks{
+    text-align: center;
+}
+
+.dashboardBackButton{
+    padding: 20px 10px 20px 10px;
+    border-radius:50% ;
+    border: none;
+    position: fixed;
+    top:40%;
+    right: 20px;
+}
