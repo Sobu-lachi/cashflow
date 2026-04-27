@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #933dc9;
+    /* 933dc9 */
+    --text-color: #cec9c9;
+    --header-color : #1c1618;
+    --border-color: rgb(74, 72, 72);
+}
+
+.drawer{
+    height: 100vh ;
+    background-color: var(--header-color);
+    width: 20%;
+    position: fixed;
+    border-right: 1px solid var(--border-color);
+    /* padding: 0px 8px 0px 8px; */
+    position: fixed;
+    top: 0;
+    /* top:0 */
+}
+
+.logo{
+   background-color: var(--primary-color);
+   padding: 2px 3px;
+   border-radius: 8px;
+   
+}
+
+.drawerheader{
+    display: flex;
+    gap: 10px;
+    height: 60px;
+    align-items: center;
+    padding:0px 5px 0px 5px;
+    background-color: var(--header-color);
+    border-bottom: 1px solid var(--border-color);
+}

@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import styles from "../styles/header.module.css"
 
-function Header() {
+function Hero() {
     return(
         <div className={styles.header}>
-            <h1 className={styles.h1}>CashClock</h1>
-            <p>Track your spending. See how long your money lasts.</p>
+            <p className={styles.p1}>Monitor your</p>
+            <p className={styles.p2}>financial flow</p>
+            <p className={styles.body}>Track your income and expenses, understand your spending patterns <br/> and take control of your personal finance</p>
             <Link to="/dashboard">
                 <button className={styles.button}>See your cashclock</button>
             </Link>
@@ -13,4 +14,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Hero

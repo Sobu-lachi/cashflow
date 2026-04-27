@@ -1,18 +1,28 @@
+:root {
+    --primary-color: #933dc9;
+    /* 933dc9 */
+    --second-primary: #c6b3d2;
+    --text-color: #cec9c9;
+}
+
+
 body{
-    background-color: rgb(9, 7, 7);
+    background-color: #090707;
+    /* background-color: #131212; */
+
     color: white;
     margin: 0;
 }
 
-.howitworks{
-    text-align: center;
-}
 
 .dashboardBackButton{
-    padding: 20px 10px 20px 10px;
+    padding: 5px;
     border-radius:50% ;
     border: none;
     position: fixed;
     top:40%;
     right: 20px;
+    background-color: var(--second-primary);
+    color: var(--primary-color);
+
 }

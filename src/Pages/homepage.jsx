@@ -1,24 +1,27 @@
 import Navbar from "../components/navbar";
-import Header from "../components/header";
-import Cards from "../components/cards";
+import Cards from "../components/homecards";
 import Footer from "../components/footer";
-import styles from "../styles/cards.module.css";
+import styles from "../styles/homecards.module.css";
+import Hero from "../components/header";
+import { Wallet, Shield, ChartBar } from 'lucide-react';
 
 
 function Home() {
     return(
         <>
             <Navbar/>
-            <Header/>
-            <h1 className="howitworks">How it works</h1>
-            
+            <Hero/>
+
             <div className={styles.section}>
             <Cards title = "Input your Income" 
-            body="Enter your total income for the month or week."/>
+            body="Enter your total income for the month or week." 
+            icon={<Wallet  size={20}/>} />
             <Cards title = "Input your Expenses" 
-                body="Enter your total expenses for the month or week."/>
+                body="Enter your total expenses for the month or week." 
+                icon={<Shield  size={20}/>} />
             <Cards title = "Result" 
-                body="You might not live through the month."/>
+                body="You might not live through the month." 
+                icon={<ChartBar  size={20}/>} />
             </div>
             <Footer/>
         </>
